@@ -190,6 +190,7 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease; 
     width: 150px;
     text-align: center;
+    border radius: 8px;
 }
 
 .sub-menu li {
@@ -210,8 +211,8 @@ body {
 }
 
 .menu-item .sub-menu li:hover {
-    color: aqua;
-    background-color: darkblue;
+    color: black;
+    background-color: brown;
     transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
