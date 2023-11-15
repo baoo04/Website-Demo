@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GioiThieu</title>
+
+    <!-- Embed link -->
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css" />
+
+    <!-- Embed fonts and icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;900&display=swap" rel="stylesheet"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header class="header">
-        <img class="avatar" src="https://wallpapercave.com/dwp1x/wp9633445.jpg" alt="Bao">
-        <p class="intro">My first Introduction Website!</p>
-        <nav class="navbar">
+    <!-- Header -->
+    <div class="header">
+        <img class="avatar" src="https://png.pngtree.com/png-vector/20190115/ourlarge/pngtree-web-page-ui-default-avatar-handsome-guy-png-image_344498.jpg" alt="Bao">
+        <div class="navbar">
             <a class="menu-item" href="#">
                 Home
                 <ul class="sub-menu">
@@ -24,12 +29,6 @@
                             <p>Call me: 0974659677</p>
                         </div>
                     </li>
-                    <!-- <li>
-                        Mail
-                        <div class="sub-menu">
-                            <p class="mail">dbao09107@gmail.com</p>
-                        </div>
-                    </li> -->
                 </ul>
             </a>
             <a class="menu-item" href="#">
@@ -55,14 +54,6 @@
                                 <p>- Working on Projects</p>
                         </div>
                     </li>
-                    <!-- <li>
-                        Marriage Status
-                        <div class="sub-menu">
-                                <p>------</p>
-                                <p>Alone</p>
-                                <p>------</p>
-                        </div>
-                    </li> -->
                </ul>
             </a>
             <a class="menu-item" href="#">
@@ -117,12 +108,14 @@
                     </li>
                 </ul>
             </a>
-        </nav>
-    </header>
+        </div>
+        <p class="intro">Subscribe</p>
+    </div>
 
+    <!-- Main content -->
     <section class="main">
         <div class="content">
-            <h1>Hi, I'm Dang Quan Bao</h1>
+            <h1>Hello, my name is <span>Dang Quan <strong>Bao</strong></span></h1>
             <h3>FrontEnd Intern</h3>
             <p>As a Front-End Intern, I am excited to 
                 contribute my creativity and problem-solving 
@@ -145,12 +138,17 @@
                     <a href="#">Let's Talk</a>
                 </div>
             </div>
-            <div class="icon">
-                <a href="https://www.facebook.com/profile.php?id=100035850031536" target="_blank" rel="noopenner"><i class='bx bxl-facebook-square'></i></a>
-                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopenner"><i class='bx bxl-gmail'></i></a>
-                <a href="https://github.com/NgTienHungg/PTIT-Source" target="_blank" rel="noopenner"><i class='bx bxl-github' ></i></a>
-            </div>
         </div>
     </section>
+    
+    <!-- Footer -->
+    <footer class="page-end">
+        <div class="icon">
+            <a href="https://www.facebook.com/profile.php?id=100035850031536" target="_blank" rel="noopener"><i class='bx bxl-facebook-square'></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener"><i class='bx bxl-gmail'></i></a>
+            <a href="https://github.com/NgTienHungg/PTIT-Source" target="_blank" rel="noopener"><i class='bx bxl-github' ></i></a>
+            <a href="https://github.com/NgTienHungg/PTIT-Source" target="_blank" rel="noopener"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </footer>
 </body>
 </html>
